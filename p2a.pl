@@ -1,3 +1,4 @@
+%program that merges two sorted lists into a sorted list
 merge([],L,L).
 merge(L,[],L).
 merge([A|Rest1], [B|Rest2], [A|Rest]) :- A =< B, merge(Rest1, [B|Rest2], Rest).
