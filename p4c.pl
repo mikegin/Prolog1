@@ -1,3 +1,4 @@
+%program that tests if a list representing a clause is tautological
 neg(X, Y) :- Y is -X.
 
 in(X, [X|Rest]).
