@@ -1,3 +1,4 @@
+%program that tests if first list is a subset of second list
 len([], [Y|Rest]).
 len([], []).
 len([A|Rest1], [B|Rest2]) :- len(Rest1, Rest2).
