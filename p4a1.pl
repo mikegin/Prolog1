@@ -1,3 +1,4 @@
+%program that does resolution of two clauses
 neg(X, Y) :- Y is -X.
 
 in(X, [X|Rest]).
