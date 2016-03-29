@@ -1,4 +1,4 @@
-%program that does resolution of two clauses
+%program that does resolution of two clauses (represented as lists)
 neg(X, Y) :- Y is -X.
 
 in(X, [X|Rest]).
