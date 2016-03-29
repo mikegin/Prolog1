@@ -1,3 +1,4 @@
+%program that merges two trees
 merge(T, nil, T).
 merge(nil, T, T).
 merge(T, T, T).
